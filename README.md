@@ -1068,11 +1068,11 @@ Find out how to generate a good password spraying wordlist from my other [projec
 
 Such keywords can be a company name and abbreviation or keywords that describe your target's services, products, etc.
 
-After you generate the wordlist, use it with tools such as [Hydra](#hydra) or [Burp Suite Intruder](https://portswigger.net/burp/documentation/desktop/tools/intruder/using) to crack web login forms. P.S. Hydra can also attack authentication mechanisms on all kinds of services/ports.
+After you generate the wordlist, use it with tools such as [Hydra](#hydra) or [Burp Suite Intruder](https://portswigger.net/burp/documentation/desktop/tools/intruder/using) to crack web login forms. P.S. Hydra can attack authentication mechanisms on all kinds of services/ports.
 
 If strong password policy is enforced, passwords usually start with one capitalized word followed by few digits and one special character at the end (e.g. Password123!).
 
-You can also use the wordlist with [hashcat](#hashcat), e.g. to crack NTLMv2 hashes that you have collected using LLMNR responder, etc.
+You can also use the generated wordlist with [hashcat](#hashcat), e.g. to crack NTLMv2 hashes that you have collected using LLMNR responder, etc.
 
 <p id="5-miscellaneous"/>
 
